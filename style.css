@@ -1,0 +1,194 @@
+:root {
+    --bg-color: rgba(24, 24, 24, 1);
+}
+
+body {
+    box-sizing: border-box;
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 46px 57px 78px;
+}
+
+nav {
+    display: flex;  
+    align-items: center;
+    color: white;
+}
+
+.nav-link {
+    margin-right: 134px;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.nav-link:hover::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin-top: 15px;
+    height: 3px;
+    
+    background-color: white;
+}
+
+.sign-in {
+    padding: 4px 23px;
+    border: solid 1px black;
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+    color: var(--bg-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu {
+    margin-left: 73px;
+    display: inline-flex;
+}
+
+/* Main block */
+main {
+    display: flex;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Krub', sans-serif;
+}
+
+main .intro, main .illustro, main .info {
+    width: 33.33%;
+}
+main .illustro{
+    display: flex;
+    justify-content: center;
+
+    background: url("Circle.png") no-repeat center;
+}
+
+/* Left block - intro */
+main .intro {
+    box-sizing: border-box;
+    padding-top: calc(84px - 40px);
+    padding-left: 57px;
+}
+
+.ui-name {
+    display: block;
+    font-size: 133px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.ui-name .ui-dot {
+    color: rgb(164, 96, 249);
+}
+
+.motto-wrap {display: flex;}
+
+._beginner {
+    display: inline;
+    margin-top: 8px;
+
+    font-size: 42px;
+    letter-spacing: 5px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+._beginner .quot-s {
+    text-transform: lowercase;
+    font-weight: 700;
+}
+
+.motto {
+    display: list-item;
+    margin-top: 146px;
+    margin-left: 142px;
+
+    font-weight: 700;
+    line-height: 1.6;
+    list-style-image: linear-gradient(white, white);
+}
+
+/* Right block - info */
+.info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 57px;
+}
+
+.info .edition-2022-logo {
+    box-sizing: border-box;
+    align-self: flex-end;
+    width: 179px;
+    padding: 12px 55px 17px/*21*/ 35px;
+    border: 2px solid white;
+    border-right: none;
+
+    font: 700 28px 'Krub', sans-serif;
+    text-align: justify;
+}
+
+.info .edition-2022-logo :first-child {
+    font-size: 19px;
+    letter-spacing: 2px;
+    /* line-height: 0.8; */
+}
+
+.edition-2022-logo :last-child {
+    position: relative;
+    top: -4px;
+}
+
+.info-container {
+    padding-top: 68px;
+    padding-left: 45px;
+    width: 286px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.info-container :first-child {
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.info-text {
+    margin-bottom: 45px;
+    padding-right: 4px;
+
+    text-transform: none;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.info-container a {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 125px;
+    padding: 16px 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.lets-start-link {
+    background-color: rgb(164, 96, 249);
+}
