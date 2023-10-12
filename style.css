@@ -14,7 +14,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 46px 57px 78px;
+    padding: 46px 57px 0;
 }
 
 nav {
@@ -38,31 +38,39 @@ nav {
     display: block;
     position: absolute;
     width: 100%;
-    margin-top: 15px;
+    margin-top: 13px;
     height: 3px;
     
     background-color: white;
 }
 
 .sign-in {
-    padding: 4px 23px;
+    box-sizing: border-box;
+    width: 99px;
+    height: 35px;
+    padding: auto 0;
     border: solid 1px black;
     background-color: white;
     font-family: 'Oswald', sans-serif;
     color: var(--bg-color);
     text-transform: uppercase;
     text-decoration: none;
+    text-align: center;
     font-size: 17px;
+}
+.sign-in :first-child {
+    vertical-align: middle;
 }
 
 .menu {
-    margin-left: 73px;
+    margin-left: 75px;
     display: inline-flex;
 }
 
 /* Main block */
 main {
     display: flex;
+    padding-top: 78px;
     color: white;
     text-transform: uppercase;
     font-family: 'Krub', sans-serif;
@@ -134,27 +142,26 @@ main .intro {
     box-sizing: border-box;
     align-self: flex-end;
     width: 179px;
-    padding: 12px 55px 17px/*21*/ 35px;
+    padding: 23px 0 21px 35px;
     border: 2px solid white;
     border-right: none;
 
-    font: 700 28px 'Krub', sans-serif;
+    font: 700 19px 'Krub', sans-serif;
     text-align: justify;
 }
 
-.info .edition-2022-logo :first-child {
-    font-size: 19px;
+.edition-2022-logo :first-child {
     letter-spacing: 2px;
-    /* line-height: 0.8; */
 }
 
 .edition-2022-logo :last-child {
-    position: relative;
-    top: -4px;
+    display: block;
+    width: 86px;
+    font-size: 28px;
 }
 
 .info-container {
-    padding-top: 68px;
+    padding-top: 61px;
     padding-left: 45px;
     width: 286px;
     font-family: 'Krub', sans-serif;
@@ -162,13 +169,13 @@ main .intro {
     text-align: justify;
 }
 
-.info-container :first-child {
+.info-header {
     font-size: 19px;
     letter-spacing: 1px;
 }
 
 .info-text {
-    margin-bottom: 45px;
+    margin: 15px 0 38px;
     padding-right: 4px;
 
     text-transform: none;
@@ -180,7 +187,8 @@ main .intro {
     display: inline-block;
     box-sizing: border-box;
     width: 125px;
-    padding: 16px 0;
+    padding: 14px 0;
+    font-size: 13px;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     color: white;
