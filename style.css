@@ -1,8 +1,19 @@
 :root {
     --bg-color: rgba(24, 24, 24, 1);
+    --accent-color: rgb(164, 96, 249);
 }
 
+.rotated-180 {
+    transform: rotate(180deg);
+}
+
+.rotated-90 {
+    transform: rotate(90);
+}
+
+/* --- Page itself --- */
 body {
+    position: relative;
     box-sizing: border-box;
     width: 1440px;
     margin: 0;
@@ -70,7 +81,7 @@ nav {
 /* Main block */
 main {
     display: flex;
-    padding-top: 78px;
+    padding-top: 79px;
     color: white;
     text-transform: uppercase;
     font-family: 'Krub', sans-serif;
@@ -83,14 +94,17 @@ main .illustro{
     display: flex;
     justify-content: center;
 
-    background: url("Circle.png") no-repeat center;
+    background: url("img/main/Circle.png") no-repeat center;
 }
 
 /* Left block - intro */
-main .intro {
+.intro {
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
-    padding-top: calc(84px - 40px);
-    padding-left: 57px;
+    justify-content: space-between;
+    padding-top: 44px;
+    padding-left: 49px;
 }
 
 .ui-name {
@@ -101,10 +115,8 @@ main .intro {
 }
 
 .ui-name .ui-dot {
-    color: rgb(164, 96, 249);
+    color: var(--accent-color);
 }
-
-.motto-wrap {display: flex;}
 
 ._beginner {
     display: inline;
@@ -112,7 +124,7 @@ main .intro {
 
     font-size: 42px;
     letter-spacing: 5px;
-    writing-mode: vertical-rl;
+    writing-mode: vertical-lr;
     transform: rotate(180deg);
 }
 
@@ -121,37 +133,53 @@ main .intro {
     font-weight: 700;
 }
 
-.motto {
-    display: list-item;
-    margin-top: 146px;
-    margin-left: 142px;
+.motto-wrap {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 153px;
+    padding-left: 102px;
+}
 
+.square-dot {
+    display: inline-block;
+    margin-top: 6px;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+}
+
+.motto {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 11px;
+
+    font-size: 15px;
     font-weight: 700;
     line-height: 1.6;
-    list-style-image: linear-gradient(white, white);
 }
 
 /* Right block - info */
 .info {
     display: flex;
     flex-direction: column;
-    padding-top: 57px;
+    justify-content: space-between;
+    padding-top: 56px;
 }
 
-.info .edition-2022-logo {
+.edition-2022-logo {
     box-sizing: border-box;
-    align-self: flex-end;
+    margin-left: auto;
     width: 179px;
     padding: 23px 0 21px 35px;
     border: 2px solid white;
     border-right: none;
 
-    font: 700 19px 'Krub', sans-serif;
+    font: 700 17px 'Krub', sans-serif;
     text-align: justify;
 }
 
 .edition-2022-logo :first-child {
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 .edition-2022-logo :last-child {
@@ -162,7 +190,7 @@ main .intro {
 
 .info-container {
     padding-top: 61px;
-    padding-left: 45px;
+    padding-left: 46px;
     width: 286px;
     font-family: 'Krub', sans-serif;
     font-weight: 600;
@@ -172,10 +200,11 @@ main .intro {
 .info-header {
     font-size: 19px;
     letter-spacing: 1px;
+    line-height: 1.5;
 }
 
 .info-text {
-    margin: 15px 0 38px;
+    margin: 12px 0 38px;
     padding-right: 4px;
 
     text-transform: none;
@@ -187,8 +216,8 @@ main .intro {
     display: inline-block;
     box-sizing: border-box;
     width: 125px;
-    padding: 14px 0;
-    font-size: 13px;
+    padding: 12px 0;
+    font-size: 14px;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     color: white;
@@ -198,5 +227,61 @@ main .intro {
 }
 
 .lets-start-link {
-    background-color: rgb(164, 96, 249);
+    background-color: var(--accent-color);
+}
+
+/* Arrow navigation */
+.arrow-main {
+    margin-bottom: 111px;
+}
+
+.am-right {
+    align-self: flex-start;
+    margin-left: 32px;
+
+}
+
+.am-left {
+    align-self: flex-end;
+    margin-right: 32px;
+}
+
+/* Achievement section */
+.achievement-banner {
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    position: absolute;
+    top: 808px;
+    /* bottom: 150px; */
+    width: 100%;
+    height: 220px;
+    box-shadow: 0px 8px 6px -3px black, 0px -8px 6px -3px black;
+
+    background-color: var(--bg-color);
+    color: white;
+    text-transform: uppercase;   
+}
+
+.achievement-number {
+    display: inline-block;
+    font: 500 50px 'Oswald', sans-serif;
+}
+
+.achievement-number::first-letter {
+    color: var(--accent-color);
+}
+
+.achievement-text {
+    display: inline-block;
+    margin-left: 10px;
+    font: 700 23px 'Krub', sans-serif;
+    line-height: 1.1;
+    letter-spacing: 2px;
+}
+
+.achievement-text::first-line {
+    font-weight: 500;
 }

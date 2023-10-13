@@ -1,0 +1,35 @@
+.accept-section {
+    display: flex;
+    margin-top: 277px;
+    padding: 0 54px 0;
+    height: 500px;
+    justify-content: space-between;
+
+    background: url("./img/ufos/ufo_accept.png") no-repeat center;
+
+    font-family: 'Krub', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.accept-side-text {
+    align-self: flex-start;
+    writing-mode: vertical-lr;
+}
+
+.accept-side-text > span {
+    margin-top: 21px;
+}
+
+.accept-main-text {
+    padding-top: 123px;
+    text-align: center;
+    font-size: 83px;
+    letter-spacing: 7px;
+    line-height: 1.2;
+}
+
+.accept-main-text :first-child {
+    font-weight: 300;
+}
