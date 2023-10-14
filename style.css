@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --bg-color: rgba(24, 24, 24, 1);
     --accent-color: rgb(164, 96, 249);
@@ -141,11 +146,15 @@ main .illustro{
 }
 
 .square-dot {
-    display: inline-block;
-    margin-top: 6px;
+    display: inline-block; 
+       
     width: 12px;
     height: 12px;
     background-color: white;
+}
+
+.intro-square-aligned {
+    margin-top: 6px;
 }
 
 .motto {
@@ -172,17 +181,21 @@ main .illustro{
     width: 179px;
     padding: 23px 0 21px 35px;
     border: 2px solid white;
-    border-right: none;
+    border-right: none; 
+}
 
+.edition-2022-container {
+    display: inline-block;
     font: 700 17px 'Krub', sans-serif;
     text-align: justify;
+    text-transform: uppercase;
 }
 
-.edition-2022-logo :first-child {
-    letter-spacing: 3px;
+.edition-2022-container :first-child {
+    letter-spacing: 4px;
 }
 
-.edition-2022-logo :last-child {
+.edition-2022-container :last-child {
     display: block;
     width: 86px;
     font-size: 28px;

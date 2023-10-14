@@ -1,8 +1,11 @@
 .accept-section {
+    margin-top: 283px;
+}
+
+.accept-main {
     display: flex;
-    margin-top: 277px;
     padding: 0 54px 0;
-    height: 500px;
+    height: 490px;
     justify-content: space-between;
 
     background: url("./img/ufos/ufo_accept.png") no-repeat center;
@@ -24,11 +27,11 @@
 }
 
 .accept-main-text {
-    padding-top: 123px;
+    padding-top: 117px;
     text-align: center;
-    font-size: 83px;
-    letter-spacing: 7px;
-    line-height: 1.2;
+    font-size: 84px;
+    letter-spacing: 6px;
+    line-height: 1.191;
 }
 
 .accept-main-text :first-child {
@@ -39,9 +42,8 @@
 .accept-footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 20px 56px 0;
+    padding: 24px 56px 0;
     justify-items: center;
-    align-items: top;
 }
 
 .accept-footer img {
