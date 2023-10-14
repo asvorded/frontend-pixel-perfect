@@ -14,11 +14,12 @@
 }
 
 .accept-side-text {
+    font-size: 17px;
     align-self: flex-start;
     writing-mode: vertical-lr;
 }
 
-.accept-side-text > span {
+.accept-side-text span {
     margin-top: 21px;
 }
 
@@ -32,4 +33,32 @@
 
 .accept-main-text :first-child {
     font-weight: 300;
+}
+
+/* Accept section footer */
+.accept-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 56px 0;
+    justify-items: center;
+    align-items: top;
+}
+
+.accept-footer img {
+    padding-top: 14px;
+}
+
+.accept-footer span {
+    font: 700 50px 'Krub', sans-serif;
+    color: rgb(37, 37, 37);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.accept-footer :first-child {
+    justify-self: flex-start;
+}
+
+.accept-footer :last-child {
+    justify-self: flex-end;
 }
