@@ -1,0 +1,126 @@
+.LastPage{
+    width:1151px;
+    background-color: #8c6eca;
+    display:flex;
+    height: 594px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.FirstAbout{
+    margin-left: -60px;
+
+}
+.SecondWWD{
+    margin-left: 10px;
+}
+.AboutUS{
+    display:flex;
+    flex-direction: column;
+}
+
+.Messengers{
+    font-family: 'Krub', sans-serif;
+    color :white;
+    margin-left: 90px;
+    margin-top: 14px;
+    display: inline-block;
+    text-align: right;
+}
+.AU{
+    text-align: left;
+    margin-bottom:11px;
+}
+.Info{
+    color:white;
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size:19px ;
+    letter-spacing: 2px;
+
+}
+.btn1{
+    height: 39px;
+    width:93px;
+    text-align: left;
+    border-bottom: 2px solid white;
+    margin-bottom: 21px;
+}
+.btn2{
+    height: 39px;
+    width:167px;
+    text-align: left;
+    border-bottom: 2px solid white;
+    margin-bottom: 21px;
+}
+
+.button1{
+    color:white;
+    font-family: 'Krub', sans-serif;
+    font-weight: 700;
+    font-size:26px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+span.bast{
+   letter-spacing: 5px;
+}
+
+.LastPageInput{
+    margin-top: 14px;
+    width:395px;
+    height:46px;
+    background-color:transparent;
+    border: 2.4px solid White;
+}
+
+.News{
+    font-size: 25px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 700;
+    text-align:right;
+    line-height: 1.5;
+
+}
+.par{
+    font-size: 21px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 400;
+    margin-right:-15px ;
+    margin-top:19px;
+}
+.Messengers>div {
+    margin-top:40px;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.face{
+    margin-top:13px ;
+    height: 18px;
+    width:10px;
+}
+.Inst{
+    margin-top:15px;
+    height: 18px;
+    width:18px;
+}
+.You{
+    margin-top:18px;
+    height: 15px;
+    width:22px;
+}
+
+.Messengers>div>div{
+    height: 50px;
+    width:50px;
+    display: inline-block;
+    background-color: white;
+    margin: 10px 0px 0 55px;
+    text-align: center;
+    border-radius: 50%;
+    color:white;
+}
+.LastPage>section>div>div span{
+    letter-spacing: -1px;
+}

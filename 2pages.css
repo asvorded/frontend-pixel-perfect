@@ -1,0 +1,95 @@
+body{
+    background-color: rgba(24, 24, 24, 1);
+}
+.imgLeft>img{
+    width:727px;
+}
+
+.prelast>div>section {
+    font-family: 'Krub', sans-serif;
+    color :white;
+    text-align: center;
+    
+}
+.Bull{
+    font-size: 13px;
+    font-weight: 600;
+    word-spacing: 2px;
+    line-height: 1.5;
+}
+.prelast{
+    display: flex;
+}
+.SUB{
+    font-family: 'Krub', sans-serif;
+    font-weight: 700;
+    font-size :38px;
+    line-height:80% ;
+    word-spacing: 1px;
+}
+.newsLetter{
+    word-spacing: 1px;
+    font-family: 'Krub', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size :37px;
+    color:#9966cc;
+    line-height: 170%;
+}
+
+.contactForm input{
+    width:371px;
+    height:50px ;
+    padding-left:29px ;
+    font-family: 'Krub', sans-serif;
+    background-color:transparent;
+    color: gray;
+    font-size:13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    border: 3px solid #9966cc;
+}
+
+.inputBox{
+    margin-top: 52px;
+    margin-bottom:-7px;
+    margin-left: 6px;
+}
+.contactForm{
+    margin-top: 26px;
+}
+
+.dataUsers{
+    width:400px;
+    margin-left:-95px ;
+    margin-top: 56px ;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+input.mes{
+    height:40px;
+    padding-bottom: 90px ;
+    padding-top: 10px ;
+    margin-top:-8px;
+}
+
+
+
+.btn{
+    margin-top:86px;
+    margin-left:9px;
+
+}
+.button {
+    background-color: #8c6eca;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 11px;
+    color:white;
+    padding:17px 28px;
+    letter-spacing: 1px;
+}
+
