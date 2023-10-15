@@ -1,5 +1,5 @@
 .find-section {
-    padding: 138px 50px 0;
+    padding: 128px 50px 0;
 }
 
 .find-header {
@@ -35,4 +35,243 @@
 .find-2022-offset {
     margin-left: 15px;
     margin-top: 1px;
+}
+
+.find-main {
+    padding: 126px 0 0 0;
+}
+
+.find-course {
+    width: 293px;
+    height: 378px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block;
+    margin-right: 43px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.find-course .num {
+    position: absolute;
+    padding: 10px 13px 10px 7px;
+
+    font-family: 'Krub', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 21px;
+    font-style: normal;
+    color: #181818;
+}
+
+.find-course .header {
+    position: absolute;
+    padding: 38px 60px 0 60px;
+
+    font-family: 'Krub', sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+.find-course .line {
+    position: absolute;
+    padding: 85px 117px 0 117px;
+}
+
+.find-course .main {
+    position: absolute;
+    width: 208px;
+    height: 93px;
+    padding: 112px 43px 0 43px;
+
+    font-family: 'Krub', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: justify;
+    line-height: 1.7;
+    color: #F2F2F2;
+}
+
+.find-course .main .last {
+    text-align: center;
+}
+
+.find-course .footer {
+    position: absolute;
+    width: 128px;
+    height: 50px;
+    margin: 242px 83px 0 83px;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(164, 96, 249);
+}
+
+.find-course .footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.text {
+    width: 49px;
+    height: 49px;
+    background-color: white;
+}
+
+.find-course:last-child {
+    margin-right: 0;
+}
+
+.find-more {
+    padding: 76px 0 9px 514px;
+    font-family: 'Krub', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    /*display: inline-block;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    color: white;
+}
+
+.find-more span {
+    margin-right: 57px;
+}
+
+.about-us {
+    height: 1260px;
+    padding: 60px 0 0 0;
+    flex-direction: column;
+}
+
+.about-us .img1 {
+    position: absolute;
+    padding: 9px 1250px 0 0
+}
+
+.about-us .img2 {
+    position: absolute;
+    padding: 0 1283px 0 132px
+}
+
+.about-us .img3 {
+    position: absolute;
+    padding: 82px 191px 0 1224px;
+}
+
+.about-us .img4 {
+    position: absolute;
+    padding: 802px 107px 0 1308px;
+}
+
+.about-us .img5 {
+    position: absolute;
+    padding: 794px 819px 0 596px;
+}
+
+.about-us .img6 {
+    position: absolute;
+    padding: 815px 0 0 1241px;
+}
+
+.about-us .img7 {
+    position: absolute;
+    padding: 225px 180px 0 862px;
+}
+
+.about-us .img8 {
+    position: absolute;
+    padding: 89px 137px 0 820px;
+}
+
+.text1 {
+    position: absolute;
+    padding: 240px 1069px 0 183px;
+    display: flex;
+
+    font-family: "Krub", serif;
+    font-size: 63px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.text2 {
+    position: absolute;
+    padding: 336px 879px 0 184px;
+    width: 377px;
+    height: 65px;
+
+    line-height: 1.8;
+    font-family: "Krub", serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.text3 {
+    position: absolute;
+    font-family: "Krub", serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text4 {
+    position: absolute;
+    width: 128px;
+    height: 50px;
+    margin: 625px 1129px 0 182px;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(164, 96, 249);
+}
+
+.text4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.shape1 {
+    position: absolute;
+    padding: 476px 1245px 0 183px;
+}
+
+.shape2 {
+    position: absolute;
+    padding: 476px 966px 0 462px;
+}
+
+.shape3 {
+    position: absolute;
+    padding: 544px 966px 0 462px;
+}
+
+.shape4 {
+    position: absolute;
+    padding: 544px 1245px 0 183px;
 }
