@@ -4,6 +4,10 @@ body{
 .imgLeft>img{
     width:727px;
 }
+.Vanya{
+    transform: scale(1.25);
+    margin-left:160px ;
+}
 
 .prelast>div>section {
     font-family: 'Krub', sans-serif;
