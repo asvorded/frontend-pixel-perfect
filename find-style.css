@@ -48,16 +48,18 @@
     border-color: white;
     border-width: 3px;
     border-style: solid;
-    display: inline-block;
-    margin-right: 43px;
-    justify-content: center;
-    align-items: center;
+    display: inline-flex;
+    /*margin-right: 44px;*/
     flex-direction: column;
+    justify-content: normal;
 }
 
 .find-course .num {
     position: absolute;
     padding: 10px 13px 10px 7px;
+    margin-right: 246px;
+
+    background-color: white;
 
     font-family: 'Krub', sans-serif;
     text-align: center;
@@ -68,9 +70,10 @@
 }
 
 .find-course .header {
-    position: absolute;
-    padding: 38px 60px 0 60px;
-
+    /*position: absolute;*/
+    /*padding: 38px 60px 0 60px;*/
+    display: block;
+    margin-top: 30px;
     font-family: 'Krub', sans-serif;
     font-size: 33px;
     font-weight: bold;
@@ -80,22 +83,124 @@
 }
 
 .find-course .line {
+    /*position: absolute;*/
+    /*padding: 85px 117px 0 117px;*/
+    margin: 20px 0 20px 0;
+    justify-content: center;
+    display: flex;
+}
+.find-section {
+    padding: 128px 50px 0;
+}
+
+.find-header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Krub', sans-serif;
+    color: white;
+}
+
+.find-header h2 {
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+}
+
+.find-header h2 span {
+    font-size: 118px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.find-right-block {
+    align-self: flex-end;
+    margin-bottom: 15px;
+}
+
+.find-square-aligned {
+    vertical-align: top;
+}
+
+.find-2022-offset {
+    margin-left: 15px;
+    margin-top: 1px;
+}
+
+.find-main {
+    padding: 126px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-course {
+    width: 293px;
+    height: 378px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-flex;
+    /*margin-right: 44px;*/
+    flex-direction: column;
+    justify-content: normal;
+}
+
+.find-course:last-child {
+    margin-right: 0;
+}
+
+.find-course .num {
     position: absolute;
-    padding: 85px 117px 0 117px;
+    padding: 10px 13px 10px 7px;
+    margin-right: 246px;
+
+    background-color: white;
+
+    font-family: 'Krub', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 21px;
+    font-style: normal;
+    color: #181818;
+}
+
+.find-course .header {
+    /*position: absolute;*/
+    /*padding: 38px 60px 0 60px;*/
+    display: block;
+    margin-top: 30px;
+    font-family: 'Krub', sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+.find-course .line {
+    /*position: absolute;*/
+    /*padding: 85px 117px 0 117px;*/
+    margin: 20px 0 20px 0;
+    justify-content: center;
+    display: flex;
 }
 
 .find-course .main {
-    position: absolute;
+    /*position: absolute;*/
+    /*padding: 112px 43px 0 43px;*/
     width: 208px;
     height: 93px;
-    padding: 112px 43px 0 43px;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
 
     font-family: 'Krub', sans-serif;
     font-size: 15px;
     font-weight: bold;
     font-style: normal;
     text-align: justify;
-    line-height: 1.7;
+    line-height: 1.8;
     color: #F2F2F2;
 }
 
@@ -104,10 +209,11 @@
 }
 
 .find-course .footer {
-    position: absolute;
+    /*position: absolute;*/
+    /*margin: 242px 83px 0 83px;*/
     width: 128px;
     height: 50px;
-    margin: 242px 83px 0 83px;
+    margin: 37px auto 0;
 
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
@@ -125,18 +231,11 @@
     color: white;
 }
 
-.text {
-    width: 49px;
-    height: 49px;
-    background-color: white;
-}
-
-.find-course:last-child {
-    margin-right: 0;
-}
-
 .find-more {
-    padding: 76px 0 9px 514px;
+    /*padding: 76px 0 9px 514px;*/
+    margin-top: 76px;
+    display: flex;
+    justify-content: center;
     font-family: 'Krub', sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -147,8 +246,8 @@
     color: white;
 }
 
-.find-more span {
-    margin-right: 57px;
+.find-more a {
+    margin-left: 57px;
 }
 
 .about-us {
@@ -159,48 +258,59 @@
 
 .about-us .img1 {
     position: absolute;
-    padding: 9px 1250px 0 0
+    margin: 9px 1250px 0 0
 }
 
 .about-us .img2 {
     position: absolute;
-    padding: 0 1283px 0 132px
+    margin: 0 1283px 0 132px
 }
 
 .about-us .img3 {
     position: absolute;
-    padding: 82px 191px 0 1224px;
+    margin: 82px 191px 0 1224px;
 }
 
 .about-us .img4 {
     position: absolute;
-    padding: 802px 107px 0 1308px;
+    margin: 802px 107px 0 1308px;
 }
 
 .about-us .img5 {
     position: absolute;
-    padding: 794px 819px 0 596px;
+    margin: 794px 819px 0 596px;
 }
 
 .about-us .img6 {
     position: absolute;
-    padding: 815px 0 0 1241px;
+    margin: 815px 0 0 1241px;
 }
 
 .about-us .img7 {
     position: absolute;
-    padding: 225px 180px 0 862px;
+    margin: 225px 180px 0 862px;
 }
 
 .about-us .img8 {
     position: absolute;
-    padding: 89px 137px 0 820px;
+    margin: 89px 137px 0 820px;
+}
+
+.about-us-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 240px;
+    text-align: left;
+    justify-content: center;
+    margin-left: 184px;
 }
 
 .text1 {
-    position: absolute;
-    padding: 240px 1069px 0 183px;
+    /*position: absolute;*/
+    /*padding: 240px 1069px 0 183px;*/
     display: flex;
+    margin-bottom: 40px;
 
     font-family: "Krub", serif;
     font-size: 63px;
@@ -211,22 +321,48 @@
 }
 
 .text2 {
-    position: absolute;
-    padding: 336px 879px 0 184px;
-    width: 377px;
+    /*position: absolute;*/
+    /*padding: 336px 879px 0 184px;*/
+    width: 370px;
     height: 65px;
+    margin-bottom: 75px;
 
-    line-height: 1.8;
+
+    line-height: 1.9;
     font-family: "Krub", serif;
     font-size: 14px;
     font-weight: bold;
     font-style: normal;
     text-align: justify;
+    text-indent: 1px;
     color: #FFFFFF;
 }
 
+.grid {
+    /*display: grid;*/
+    column-count: 2;
+    width: 90%;
+    /*grid-template-columns: repeat(2, 1fr);*/
+    /*grid-gap: 10px;*/
+    left: 15px;
+    margin-left: 20px;
+    /*grid-auto-rows: minmax(100px, auto);*/
+    font-family: "Krub", serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    color: #FFFFFF;
+    list-style-image: url("img/Shape 1.png");
+}
+
+.grid li {
+    text-indent: -2px;
+    margin-bottom: 54px;
+}
+
 .text3 {
-    position: absolute;
+    /*position: absolute;*/
     font-family: "Krub", serif;
     font-size: 12px;
     font-weight: bold;
@@ -236,10 +372,11 @@
 }
 
 .text4 {
-    position: absolute;
+    /*position: absolute;*/
+    /*margin: 625px 1129px 0 182px;*/
     width: 128px;
     height: 50px;
-    margin: 625px 1129px 0 182px;
+
 
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
@@ -258,21 +395,21 @@
 }
 
 .shape1 {
-    position: absolute;
-    padding: 476px 1245px 0 183px;
+    /*position: absolute;*/
+    /*padding: 476px 1245px 0 183px;*/
 }
 
 .shape2 {
-    position: absolute;
-    padding: 476px 966px 0 462px;
+    /*position: absolute;*/
+    /*padding: 476px 966px 0 462px;*/
 }
 
 .shape3 {
-    position: absolute;
-    padding: 544px 966px 0 462px;
+    /*position: absolute;*/
+    /*padding: 544px 966px 0 462px;*/
 }
 
 .shape4 {
-    position: absolute;
-    padding: 544px 1245px 0 183px;
+    /*position: absolute;*/
+    /*padding: 544px 1245px 0 183px;*/
 }
