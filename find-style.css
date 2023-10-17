@@ -240,7 +240,7 @@
 }
 
 .about-us {
-    height: 1260px;
+    height: 1030px; /*Было 1260*/
     padding: 50px 0 0 0;
     flex-direction: column;
 }

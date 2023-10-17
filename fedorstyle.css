@@ -1,6 +1,10 @@
 #sfive {
-    width: 100hv;
-    height: 1080px;
+    height: 962px;
+}
+
+#sseven{
+    height: 1145px;
+    padding-top: 5px;
 }
 
 .image-container {
@@ -11,23 +15,17 @@
     position: absolute;
 }
 
-.image-container img:first-child {
-    top: 50px;
-    left: 50px;
-    z-index: 0;
-}
-
-.image-container img:last-child {
-    top: 0;
-    left: 250px;
-    z-index: 2;
-}
-
 .right5 {
     position: absolute;
-    padding: 20px 900px;
-    color: white;
+    padding: 205px 880px;
     font-family: 'Krub', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    white-space: normal;
+    text-align: justify;
+    line-height: 1.6;
+    color: #F2F2F2;
     overflow: auto;
     white-space: normal;
 }
@@ -35,58 +33,51 @@
 .purple-button {
     background-color: #AA84F9;
     color: white;
-    padding-top: 10px;
-    padding: 10px 20px;
+    padding: 12px 22px;
     border: none;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-family: 'Krub', sans-serif;
     font-size: 16px;
     cursor: pointer;
 }
 
 .text7{
     font-family: 'Krub', sans-serif;
-    font-size: 100px;
-    color: white;   
+    font-weight: bold;
+    font-style: normal;
+    white-space: normal;
     text-align: center;
-}
-
-.text71{
-    font-family: 'Krub', sans-serif;
-    font-size: 50px;
-    color:#AA84F9;   
-    text-align: center;   
+    line-height: 0.9;
+    color: #F2F2F2;
+    /*overflow: auto;*/
+    white-space: normal;
 }
 
 .image-container7 {
     display: flex;
     justify-content: center; 
     align-items: center;
-
+    padding-top: 50px;
 }
 
 .container {
-    color: white;
     display: flex;
     justify-content: center; 
     align-items: center;
+    color: gray;
 }
   
 .box {
-    flex: 0 0 30%;
-    height: 600px;
+    /*flex: 0 0 31%;*/
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center; 
     flex-direction: column; 
     box-sizing: border-box;
-}
-
-.box img {
-    max-width: 100%; 
-    max-height: 100%; 
+    padding-top: 30px;
+    width: 31%;
 }
 
 .box-text{
@@ -95,14 +86,14 @@
 }
 
 .star-row {
-    padding-top: 10px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   
 .star {
-    margin: 5px;
+    margin: 7px;
 }
 
 .mini-text-box{
@@ -112,4 +103,10 @@
     margin-right: auto; 
     width: 60%;
     display: block; 
+    font-family: 'Krub', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    white-space: normal;
+    line-height: 1.6;
+    overflow: auto;
 }
