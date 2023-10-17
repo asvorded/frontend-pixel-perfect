@@ -1,12 +1,12 @@
 body{
     background-color: rgba(24, 24, 24, 1);
 }
+.scaled {
+    transform: scale(1.25);
+    margin-left: 160px  ;
+}
 .imgLeft>img{
     width:727px;
-}
-.Vanya{
-    transform: scale(1.25);
-    margin-left:160px ;
 }
 
 .prelast>div>section {
@@ -22,6 +22,8 @@ body{
     line-height: 1.5;
 }
 .prelast{
+    box-sizing: border-box;
+    padding-top: 0px;
     display: flex;
 }
 .SUB{
@@ -30,6 +32,7 @@ body{
     font-size :38px;
     line-height:80% ;
     word-spacing: 1px;
+    letter-spacing: 1px;
 }
 .newsLetter{
     word-spacing: 1px;
@@ -66,7 +69,7 @@ body{
 .dataUsers{
     width:400px;
     margin-left:-95px ;
-    margin-top: 56px ;
+    margin-top: 83px ;
     display: flex;
     flex-direction: column;
     align-items:center ;
@@ -82,7 +85,7 @@ input.mes{
 
 
 .btn{
-    margin-top:86px;
+    margin-top:90px;
     margin-left:9px;
 
 }
@@ -96,4 +99,3 @@ input.mes{
     padding:17px 28px;
     letter-spacing: 1px;
 }
-

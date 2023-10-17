@@ -1,14 +1,12 @@
 .LastPage{
+    box-sizing: border-box;
     width:1151px;
     background-color: #8c6eca;
     display:flex;
     height: 594px;
     align-items: center;
-    justify-content: space-evenly;
-}
-.FirstAbout{
-    margin-left: -60px;
-
+    padding: 36px 46px 0 46px;
+    justify-content: space-between;
 }
 .SecondWWD{
     margin-left: 10px;
@@ -19,12 +17,15 @@
 }
 
 .Messengers{
-    margin-top: 24px;
+    box-sizing: border-box;
+    padding-top: 30px;
     font-family: 'Krub', sans-serif;
     color :white;
-    margin-left: 90px;
-    display: inline-block;
+    padding-left: 136px;
+    display: block;
     text-align: right;
+    font-weight: 900;
+    letter-spacing: 1px;
 }
 .AU{
     text-align: left;
@@ -67,10 +68,9 @@ span.bast{
 }
 
 .LastPageInput{
-    margin-top: 39px;
+    margin-top: 44px;
     width:395px;
-    height:48px;
-    color: white;
+    height:46px;
     background-color:transparent;
     border: 2.4px solid White;
 }
@@ -84,7 +84,7 @@ span.bast{
 
 }
 .par{
-    font-size: 21px;
+    font-size: 18px;
     font-family: 'Krub', sans-serif;
     font-weight: 400;
     margin-right:-15px ;
