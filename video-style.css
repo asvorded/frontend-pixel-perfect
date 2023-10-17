@@ -1,0 +1,30 @@
+.video-section {
+    display: flex;
+    padding: 0 48px 0;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+
+.video-section h3 {
+    display: block; 
+
+    font: 600 20px 'Krub', sans-serif;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);   
+}
+
+.video-right-text {
+    margin-bottom: 30px;
+}
+
+.video-left-text {  
+    margin-top: 30px;
+    text-align: right;
+}
+.video-section img {
+    display: block;
+    margin: 0 auto;
+}
