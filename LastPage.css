@@ -1,27 +1,30 @@
 .LastPage{
     box-sizing: border-box;
-    width:1151px;
     background-color: #8c6eca;
     display:flex;
-    height: 594px;
+    height: 743px;
     align-items: center;
-    padding: 36px 46px 0 46px;
+    padding: 25px 57px 0 61px;
     justify-content: space-between;
 }
 .SecondWWD{
-    margin-left: 10px;
+    margin-left: 9px;
 }
 .AboutUS{
     display:flex;
     flex-direction: column;
 }
 
+.Messengers>p>span{
+    font-weight: 100;
+    text-decoration: underline;
+}
 .Messengers{
     box-sizing: border-box;
-    padding-top: 30px;
+    padding-top: 32px;
     font-family: 'Krub', sans-serif;
     color :white;
-    padding-left: 136px;
+    padding-left: 167px;
     display: block;
     text-align: right;
     font-weight: 900;
@@ -29,37 +32,37 @@
 }
 .AU{
     text-align: left;
-    margin-bottom:11px;
+    margin-bottom:13px;
 }
 .Info{
     color:white;
     font-family: 'Krub', sans-serif;
     font-weight: 500;
     text-decoration: none;
-    font-size:19px ;
+    font-size:24px ;
     letter-spacing: 2px;
 
 }
 .btn1{
-    height: 39px;
-    width:93px;
+    height: 49px;
+    width:116px;
     text-align: left;
     border-bottom: 2px solid white;
-    margin-bottom: 21px;
+    margin-bottom: 28px;
 }
 .btn2{
-    height: 39px;
-    width:167px;
+    height: 49px;
+    width:209px;
     text-align: left;
     border-bottom: 2px solid white;
-    margin-bottom: 21px;
+    margin-bottom: 29px;
 }
 
 .button1{
     color:white;
     font-family: 'Krub', sans-serif;
     font-weight: 700;
-    font-size:26px;
+    font-size:33px;
     letter-spacing: 2px;
     text-decoration: none;
 }
@@ -68,15 +71,15 @@ span.bast{
 }
 
 .LastPageInput{
-    margin-top: 44px;
-    width:395px;
-    height:46px;
+    margin-top: 53px;
+    width:494px;
+    height:58px;
     background-color:transparent;
     border: 2.4px solid White;
 }
 
 .News{
-    font-size: 25px;
+    font-size: 32px;
     font-family: 'Krub', sans-serif;
     font-weight: 700;
     text-align:right;
@@ -84,40 +87,40 @@ span.bast{
 
 }
 .par{
-    font-size: 18px;
+    font-size: 23px;
     font-family: 'Krub', sans-serif;
     font-weight: 400;
-    margin-right:-15px ;
-    margin-top:19px;
+    margin-right:-19px ;
+    margin-top:24px;
 }
 .Messengers>div {
-    margin-top:40px;
+    margin-top:47px;
     display: flex;
     justify-content:flex-end;
 }
 
 .face{
-    margin-top:13px ;
-    height: 18px;
+    margin-top: 20px ;
+    height: 23px;
     width:10px;
 }
 .Inst{
-    margin-top:15px;
-    height: 18px;
-    width:18px;
+    margin-top:19px;
+    height: 23px;
+    width:23px;
 }
 .You{
-    margin-top:18px;
-    height: 15px;
-    width:22px;
+    margin-top:23px;
+    height: 19px;
+    width:28px;
 }
 
 .Messengers>div>div{
-    height: 50px;
-    width:50px;
+    height: 63px;
+    width:63px;
     display: inline-block;
     background-color: white;
-    margin: 10px 0px 0 55px;
+    margin: 13px 0px 0 69px;
     text-align: center;
     border-radius: 50%;
     color:white;
