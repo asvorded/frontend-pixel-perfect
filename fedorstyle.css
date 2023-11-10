@@ -2,11 +2,6 @@
     height: 962px;
 }
 
-#sseven{
-    height: 1145px;
-    padding-top: 5px;
-}
-
 .image-container {
     position: relative;
 }
@@ -82,7 +77,7 @@
 
 .box-text{
     padding-top: 30px;
-    font-size: 15px
+    font-size: 15px;
 }
 
 .star-row {
@@ -109,4 +104,8 @@
     white-space: normal;
     line-height: 1.6;
     overflow: auto;
+}
+
+i {
+    color: var(--accent-color);
 }

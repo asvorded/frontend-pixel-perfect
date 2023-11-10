@@ -1,0 +1,91 @@
+#why-section {
+    margin-top: 43px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.why-logo {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 776px;
+    padding-top: 67px;
+
+    background: url("img/ufos/ufo-why.png") center no-repeat;
+}
+
+.why-logo img {
+    display: block;
+    margin: 0 auto;
+}
+
+.why-container {
+    /* padding: 14px; */
+    display: inline-block;
+    margin: auto 0;
+    vertical-align: middle;
+    position: relative;
+    top: -5px;
+    left: 23px;
+    width: 383px;
+
+    color: white;
+}
+
+
+.why-header {
+    font: 700 65px "Krub", sans-serif;
+}
+
+.why-header span {
+    margin-left: 20px;
+
+    font-weight: 400;
+    color: var(--accent-color);
+    letter-spacing: 5px;
+}
+
+.why-text {
+    margin-top: 25px;
+
+    font: 600 15px "Krub", sans-serif;
+    line-height: 160%;
+    text-align: justify;
+}
+
+.why-side-text {
+    display: inline-block;
+    
+
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+
+    font: 700 100px "Krub", sans-serif;
+    color: #252525;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.why-link {
+    display: block;
+    width: 100px;
+    margin-top: 45px;
+    padding: 13px 12px;
+    background-color: var(--accent-color);
+
+    font: 600 15px "Oswald", sans-serif;
+    color: inherit;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.why-circle {
+    text-align: right;
+}
+
+.why-circle img {
+    margin-top: 4px;
+    margin-right: 132px;
+}
