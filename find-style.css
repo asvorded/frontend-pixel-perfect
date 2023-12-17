@@ -243,56 +243,65 @@
     height: 1030px; /*Было 1260*/
     padding: 50px 0 0 0;
     flex-direction: column;
+    position: relative;
 }
 
 .about-us .img1 {
     position: absolute;
-    margin: 9px 1250px 0 0
+    top: 60px;
 }
 
 .about-us .img2 {
     position: absolute;
-    margin: 0 1283px 0 132px
+    top: 55px;
+    left: 130px;
 }
 
 .about-us .img3 {
     position: absolute;
-    margin: 82px 191px 0 1224px;
+    right: 50px;
+    top: 150px;
 }
 
 .about-us .img4 {
     position: absolute;
-    margin: 802px 107px 0 1308px;
+    bottom: 235px;
+    right: 150px;
 }
 
 .about-us .img5 {
     position: absolute;
-    margin: 794px 819px 0 596px;
+    bottom: 150px;
+    left: 600px;
 }
 
 .about-us .img6 {
     position: absolute;
-    margin: 815px 0 0 1241px;
+    bottom: 0;
+    right: 0;
 }
 
 .about-us .img7 {
     position: absolute;
-    margin: 225px 180px 0 862px;
+    top: 220px;
+    right: 177px;
 }
 
 .about-us .img8 {
     position: absolute;
-    margin: 89px 137px 0 820px;
+    top: 109px;
+    right: 137px;
 }
 
 .about-us-text {
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin-top: 224px;
     text-align: left;
     justify-content: center;
-    margin-left: 184px;
+    position: absolute;
+    top: 274px;
+    left: 184px;
 }
 
 .text1 {
