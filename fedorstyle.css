@@ -2,29 +2,6 @@
     height: 962px;
 }
 
-.image-container {
-    position: relative;
-}
-
-.image-container img {
-    position: absolute;
-}
-
-.right5 {
-    position: absolute;
-    padding: 205px 880px;
-    font-family: 'Krub', sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    font-style: normal;
-    white-space: normal;
-    text-align: justify;
-    line-height: 1.6;
-    color: #F2F2F2;
-    overflow: auto;
-    white-space: normal;
-}
-
 .purple-button {
     background-color: #AA84F9;
     color: white;
