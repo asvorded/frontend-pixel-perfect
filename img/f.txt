@@ -1,0 +1,26 @@
+    <section>
+        <div></div>
+        <div></div>
+        <div class="about-us">
+            <img src="img/Oval.png" alt="" class="img1">
+            <img src="img/Oval%202.png" alt="" class="img6">
+            <img src="img/Circle%201.png" alt="" class="img3">
+            <img src="img/Circle%201.png" alt="" class="img4">
+            <img src="img/Circle%201.png" alt="" class="img5">
+            <img src="img/Circle%201%20Big.png" alt="" class="img7">
+            <img src="img/Student.png" alt="" class="img8">
+            <div class="about-us-text">
+                <span class="text1">About<span style="color: #AA84F9; font-weight: normal"> us.</span></span>
+                <div class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Quis ipsum suspendisse.</div>
+                <div style="width: 80%">
+                   <ul class="grid">
+                       <li>LOREM IPSUM DOLOR.</li>
+                       <li>LOREM IPSUM DOLOR.</li>
+                       <li>LOREM IPSUM DOLOR.</li>
+                       <li>LOREM IPSUM DOLOR.</li>
+                   </ul>
+               </div>
+                <div class="text4"><a href="">READ MORE</a></div>
+            </div>
+        </div>
+    </section>

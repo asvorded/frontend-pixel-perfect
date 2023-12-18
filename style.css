@@ -13,7 +13,7 @@
 }
 
 .rotated-90 {
-    transform: rotate(90);
+    transform: rotate(90deg);
 }
 
 /* --- Page itself --- */
